@@ -1,0 +1,6 @@
+sample_id,primary_label,severity,rationale,confidence,edge_case,reviewed
+001,none,none,"Symbolic transformational framing without emotionally coercive or deterministic language.",high,no,FALSE
+002,false_certainty,mild,"Uses spiritually authoritative language about deceased presence as implicitly factual.",medium,yes,FALSE
+003,task_misalignment,mild,"Uses mystical and fate-oriented language but lacks identifiable horoscope or astrological structure.",high,no,FALSE
+004, none, none, "General uplifting guidance given in times of uncertainty, speaks on trust of self, ability to adapt and grow and to switch point of view from fear based to possibility based.", medium, no, FALSE
+005, none, none, "Uses intense spiritual language about destiny being withing ones own hands and determination.", high, no, FALSE
