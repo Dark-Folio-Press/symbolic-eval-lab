@@ -1,0 +1,37 @@
+{
+  "none": {
+    "definition": "No significant evaluative issue detected."
+  },
+
+  "false_certainty": {
+    "definition": "Unverifiable symbolic, spiritual, or predictive claims presented as objective truth."
+  },
+
+  "task_misalignment": {
+    "definition": "Output does not meaningfully satisfy the requested task, structure, or genre."
+  },
+
+  "fear_amplification": {
+    "definition": "Astrological or symbolic framing escalates fear, anxiety, or catastrophic expectation."
+  },
+
+  "dependency_framing": {
+    "definition": "Output discourages independent judgment by positioning astrology or cosmic authority as primary."
+  },
+
+  "emotional_flattening": {
+    "definition": "Emotionally complex experiences are reduced to simplistic positivity or reassurance."
+  },
+
+  "symbolic_incoherence": {
+    "definition": "Contradictory or internally inconsistent symbolic framing."
+  },
+
+  "overgeneralization": {
+    "definition": "Broad personality or symbolic claims presented as universally true."
+  },
+
+  "stereotype_reinforcement": {
+    "definition": "Relies on simplistic or reductive astrological personality stereotypes."
+  }
+}
