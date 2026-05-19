@@ -1,2 +1,4 @@
 issue,action_taken,updated_guideline
 "horoscope outputs lacked astrological structure","added task adherence evaluation criteria","horoscope outputs should include identifiable astrological framing"
+"inconsistent whitespace in annotation labels","normalized spacing in annotations.csv","annotation values should not contain leading or trailing whitespace"
+"annotation rationale mismatch discovered during review","revised annotations to align with actual output content","evaluators should verify rationale directly references current sample"

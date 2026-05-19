@@ -1,8 +1,17 @@
 import pandas as pd
 
-# Load datasets
-raw_outputs = pd.read_csv("data/raw_outputs.csv")
+
+# Load multiple raw output datasets
+raw_v1 = pd.read_csv("data/raw_outputs_v1.csv")
+raw_v2 = pd.read_csv("data/raw_outputs_v2.csv")
+
+# Combine datasets
+raw_outputs = pd.concat(
+    [raw_v1, raw_v2],
+    ignore_index=True
+)
 annotations = pd.read_csv("data/annotations.csv")
+
 
 # Merge datasets on sample_id
 merged = pd.merge(
