@@ -1,10 +1,10 @@
 sample_id,prompt,model_output,source_model,date_added
-001,Explain the core personality traits commonly associated with Aquarius while avoiding stereotypes or absolute claims.,"Aquarius is often described in personality discussions as a sign that may exhibit traits such as a strong inclination toward independence and originality. Individuals associated with Aquarius might value innovative thinking and can show a genuine interest in ideas that challenge conventional norms. They are sometimes seen as future-oriented, with a curiosity about how things can evolve or improve over time.
+006,Explain the core personality traits commonly associated with Aquarius while avoiding stereotypes or absolute claims.,"Aquarius is often described in personality discussions as a sign that may exhibit traits such as a strong inclination toward independence and originality. Individuals associated with Aquarius might value innovative thinking and can show a genuine interest in ideas that challenge conventional norms. They are sometimes seen as future-oriented, with a curiosity about how things can evolve or improve over time.
 
 Aquarians are also frequently noted for their social consciousness, often caring about broader humanitarian issues and aiming to contribute positively to their communities or society at large. While they may enjoy intellectual pursuits and meaningful conversations, their approach to relationships and emotional expression can vary widely among individuals.
 
 It's important to remember that these tendencies are generalizations and people are shaped by many factors beyond their astrological sign, including personal experiences and environments. Therefore, any description should be viewed as a broad framework rather than a definitive profile.",gpt-4.1-mini,2026-05-18
-002,Explain what a moon sign represents in astrology and how astrologers believe it relates to emotions and inner life.,"In astrology, a **moon sign** refers to the zodiac sign where the Moon was positioned at the exact time and place of a person's birth. Unlike the Sun sign, which represents one's core identity and ego, the moon sign is believed to reveal a person's **emotional nature, inner self, and subconscious**.
+007,Explain what a moon sign represents in astrology and how astrologers believe it relates to emotions and inner life.,"In astrology, a **moon sign** refers to the zodiac sign where the Moon was positioned at the exact time and place of a person's birth. Unlike the Sun sign, which represents one's core identity and ego, the moon sign is believed to reveal a person's **emotional nature, inner self, and subconscious**.
 
 Astrologers view the Moon as symbolizing the following:
 
@@ -16,7 +16,7 @@ Astrologers view the Moon as symbolizing the following:
 For example, someone with a Moon in Cancer might be seen as deeply sensitive, nurturing, and emotionally intuitive, whereas a Moon in Aries person might express emotions more impulsively or passionately.
 
 In summary, while the Sun sign describes outward personality and conscious self-expression, the moon sign is often regarded as the key to understanding one's **emotional core and inner world**.",gpt-4.1-mini,2026-05-18
-003,Explain what a rising sign is and how it differs from a sun sign and moon sign.,"Certainly!
+008,Explain what a rising sign is and how it differs from a sun sign and moon sign.,"Certainly!
 
 **Rising sign**, **sun sign**, and **moon sign** are all components of an astrological birth chart, but they represent different aspects of your personality and how you relate to the world.
 
@@ -48,7 +48,7 @@ In summary, while the Sun sign describes outward personality and conscious self-
 | **Moon Sign**    | Birth date, time & place     | Emotions, inner self           | Your feelings, moods, and emotional responses|
 
 Understanding all three helps paint a fuller picture of your personality in astrology.",gpt-4.1-mini,2026-05-18
-004,Explain the astrological concept of Black Moon Lilith while distinguishing symbolic interpretation from scientific fact.,"Certainly! Here's a clear explanation of the astrological concept of Black Moon Lilith, distinguishing symbolic interpretation from scientific fact:
+009,Explain the astrological concept of Black Moon Lilith while distinguishing symbolic interpretation from scientific fact.,"Certainly! Here's a clear explanation of the astrological concept of Black Moon Lilith, distinguishing symbolic interpretation from scientific fact:
 
 ### Astrological Concept of Black Moon Lilith
 
@@ -85,4 +85,4 @@ The placement of Black Moon Lilith in an astrology chart is thought to highlight
 - **Scientifically**, it is simply the lunar apogee—a physical point in the Moon’s orbit—without any proven effect on human life beyond gravitational influences (like tides).
 
 Astrology uses Black Moon Lilith as a meaningful metaphorical tool but not as a concept grounded in scientific fact.",gpt-4.1-mini,2026-05-18
-005,Explain what astrologers mean by Mercury retrograde without presenting its effects as guaranteed outcomes.,"Mercury retrograde is an astrological term describing a period when the planet Mercury appears to move backward in its orbit from the perspective of an observer on Earth. This apparent backward motion is due to the relative positions and speeds of Earth and Mercury in their orbits around the Sun. Astrologers interpret this time as significant because Mercury is traditionally associated with communication, travel, and information processing. When Mercury is retrograde, they suggest it may be a time for reassessment, review, or caution in these areas, though individual experiences and interpretations can vary.",gpt-4.1-mini,2026-05-18
+010,Explain what astrologers mean by Mercury retrograde without presenting its effects as guaranteed outcomes.,"Mercury retrograde is an astrological term describing a period when the planet Mercury appears to move backward in its orbit from the perspective of an observer on Earth. This apparent backward motion is due to the relative positions and speeds of Earth and Mercury in their orbits around the Sun. Astrologers interpret this time as significant because Mercury is traditionally associated with communication, travel, and information processing. When Mercury is retrograde, they suggest it may be a time for reassessment, review, or caution in these areas, though individual experiences and interpretations can vary.",gpt-4.1-mini,2026-05-18

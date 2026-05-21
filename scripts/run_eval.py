@@ -1,19 +1,14 @@
 import pandas as pd
 
-
-# Load multiple raw output datasets
-raw_v1 = pd.read_csv("data/raw_outputs_v1.csv")
-raw_v2 = pd.read_csv("data/raw_outputs_v2.csv")
-
-# Combine datasets
-raw_outputs = pd.concat(
-    [raw_v1, raw_v2],
-    ignore_index=True
-)
+# Load datasets
+raw_outputs = pd.read_csv("data/raw_outputs.csv")
 annotations = pd.read_csv("data/annotations.csv")
 
+# Normalize sample_id formatting
+raw_outputs["sample_id"] = raw_outputs["sample_id"].astype(str).str.strip()
+annotations["sample_id"] = annotations["sample_id"].astype(str).str.strip()
 
-# Merge datasets on sample_id
+# Merge datasets
 merged = pd.merge(
     raw_outputs,
     annotations,
@@ -23,7 +18,9 @@ merged = pd.merge(
 # Save merged dataset
 merged.to_csv("data/merged_dataset.csv", index=False)
 
-# Print basic evaluation statistics
+# Print stats
+print("\nMerged Records:", len(merged))
+
 print("\n=== LABEL DISTRIBUTION ===")
 print(merged["primary_label"].value_counts())
 

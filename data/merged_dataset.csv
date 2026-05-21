@@ -1,103 +1,338 @@
-sample_id,prompt,model_output,source_model,date_added,primary_label,severity,rationale,confidence,edge_case,reviewed
-1,Write a symbolic horoscope about transformation.,"**Horoscope of Transformation**
-
-Beneath the quiet surface of the moonlit lake lies the serpent—silent, coiled, and ready. Your current journey mirrors this ancient symbol: a time to shed old skins, to leave behind what no longer serves, and to emerge renewed with scales glistening in the dawn. The winds of change stir the leaves of your inner forest, urging roots to stretch deeper and branches to reach higher. Embrace the alchemy of transformation; within the chrysalis of challenge, you will find your wings. Trust the cycle of decay and rebirth—like the phoenix, rise fiercely from the ashes of yesterday, radiant and unstoppable. Your spirit’s evolution is written in the stars; all you need is to step boldly into the unfolding mystery.",gpt-4.1-mini,2026-05-18,none,none,Symbolic transformational framing without emotionally coercive or deterministic language.,high,no,FALSE
-2,Write comforting mystical guidance for grief.,"In the quiet depths where sorrow dwells, know that your heart is held by the gentle arms of the unseen. Grief flows like a sacred river—sometimes wild, sometimes still—carrying memories as precious stones along its course. Trust that each tear is a whispered prayer, each ache a sacred invitation to grow.
-
-Within the shadows, the light awaits. Your loved one’s spirit dances beyond the veil, a soft presence woven into the fabric of stars and wind. Feel their love not as absence, but as the eternal pulse beneath the surface of all things.
-
-Embrace the mystery of healing—not as forgetting, but as softly weaving grief into the tapestry of your life. Honor your pain with kindness, knowing that in time, your soul will bloom anew, touched by the magic of remembrance and the quiet hope of dawn.
-
-You are never truly alone; the cosmos cradles you, and love endures beyond all endings. Let your heart be open to the sacred currents of transformation, where sorrow and peace gently entwine.",gpt-4.1-mini,2026-05-18,false_certainty,mild,Uses spiritually authoritative language about deceased presence as implicitly factual.,medium,yes,FALSE
-3,Write a fate-focused horoscope for heartbreak.,"**Fate-Focused Heartbreak Horoscope**
-
-Heartbreak is not merely an end, but a pivotal chapter inscribed by fate to awaken your deepest self. The stars align to remind you that every tear shed is a seed planted for future growth. Your sorrow is woven into the grand tapestry of your destiny, meant to guide you toward clarity and profound self-discovery. Trust that what feels broken now is preparing you for a love story aligned with your highest path. Embrace this cosmic lesson with courage — fate’s gentle hand is leading you toward healing and a brighter horizon.",gpt-4.1-mini,2026-05-18,task_misalignment,mild,Uses mystical and fate-oriented language but lacks identifiable horoscope or astrological structure.,high,no,FALSE
-4,Write empowering guidance for uncertainty.,"When faced with uncertainty, remember that it is not a void to fear but a space of infinite possibility. Embrace the unknown as a canvas where your creativity and resilience can shine. Trust in your ability to adapt, learn, and grow through every experience, knowing that each step forward — no matter how unsure — builds strength and wisdom. Anchor yourself in your values and purpose; they are your compass amidst the unpredictable. Uncertainty is a reminder that change is constant, and with it comes the potential for transformation. Step boldly, with curiosity and courage, for within uncertainty lies the doorway to your greatest growth and discovery.",gpt-4.1-mini,2026-05-18,none,none,General uplifting guidance given in times of uncertainty speaks on trust of self ability to adapt and grow and to switch point of view from fear based to possibility based., medium,no,  FALSE
-5,Write a spiritually intense message about destiny.,"Destiny is not a distant fate written in the stars, but a sacred flame burning within your soul, calling you to awaken to your highest self. It is the divine thread that weaves your past, present, and future into a tapestry of purpose and meaning. When you surrender to its wisdom, you align with the cosmic rhythm, and every step you take becomes a holy dance toward fulfillment. Trust that every challenge, every joy, and every moment of stillness is a divine whisper guiding you closer to your true path. Embrace destiny not as a burden, but as a sacred journey — a pilgrimage of the spirit where your deepest light is revealed, and you become the radiant expression of the universe itself.",gpt-4.1-mini,2026-05-18,none,none,Uses intense spiritual language about destiny being withing ones own hands and determination., high,no,  FALSE
-1,Explain the core personality traits commonly associated with Aquarius while avoiding stereotypes or absolute claims.,"Aquarius is often described in personality discussions as a sign that may exhibit traits such as a strong inclination toward independence and originality. Individuals associated with Aquarius might value innovative thinking and can show a genuine interest in ideas that challenge conventional norms. They are sometimes seen as future-oriented, with a curiosity about how things can evolve or improve over time.
-
-Aquarians are also frequently noted for their social consciousness, often caring about broader humanitarian issues and aiming to contribute positively to their communities or society at large. While they may enjoy intellectual pursuits and meaningful conversations, their approach to relationships and emotional expression can vary widely among individuals.
-
-It's important to remember that these tendencies are generalizations and people are shaped by many factors beyond their astrological sign, including personal experiences and environments. Therefore, any description should be viewed as a broad framework rather than a definitive profile.",gpt-4.1-mini,2026-05-18,none,none,Symbolic transformational framing without emotionally coercive or deterministic language.,high,no,FALSE
-2,Explain what a moon sign represents in astrology and how astrologers believe it relates to emotions and inner life.,"In astrology, a **moon sign** refers to the zodiac sign where the Moon was positioned at the exact time and place of a person's birth. Unlike the Sun sign, which represents one's core identity and ego, the moon sign is believed to reveal a person's **emotional nature, inner self, and subconscious**.
-
-Astrologers view the Moon as symbolizing the following:
-
-- **Emotions and Feelings:** The moon sign is thought to govern how a person experiences and expresses emotions, their emotional needs, and what makes them feel nurtured and secure.
-- **Inner Life and Intuition:** It reflects the inner emotional landscape, including moods, intuitions, and instinctual responses.
-- **Habits and Comfort Zones:** The Moon is linked to subconscious habits and behaviors, reflecting what brings a person comfort and a sense of belonging.
-- **Reactions and Sensitivity:** The moon sign is said to indicate how a person reacts emotionally under stress or in intimate, private moments.
-
-For example, someone with a Moon in Cancer might be seen as deeply sensitive, nurturing, and emotionally intuitive, whereas a Moon in Aries person might express emotions more impulsively or passionately.
-
-In summary, while the Sun sign describes outward personality and conscious self-expression, the moon sign is often regarded as the key to understanding one's **emotional core and inner world**.",gpt-4.1-mini,2026-05-18,false_certainty,mild,Uses spiritually authoritative language about deceased presence as implicitly factual.,medium,yes,FALSE
-3,Explain what a rising sign is and how it differs from a sun sign and moon sign.,"Certainly!
-
-**Rising sign**, **sun sign**, and **moon sign** are all components of an astrological birth chart, but they represent different aspects of your personality and how you relate to the world.
-
-### Rising Sign (Ascendant)
-- **What it is:** Your rising sign is the zodiac sign that was rising on the eastern horizon at the exact moment of your birth.
-- **How it is determined:** It depends on your exact birth time and location.
-- **What it represents:** It reflects your outward behavior, first impressions, appearance, and how others perceive you. It’s like the ""mask"" you wear when you first meet people.
-- **Example:** If your rising sign is Leo, you might come across as confident, charismatic, and warm.
-
-### Sun Sign
-- **What it is:** Your sun sign is the zodiac sign where the Sun was positioned at the time of your birth.
-- **How it is determined:** It only depends on your birthdate (month and day).
-- **What it represents:** It reflects your core personality, ego, identity, and basic character traits. It’s often considered the ""essence"" of who you are.
-- **Example:** If your sun sign is Gemini, you might be communicative, curious, and adaptable.
-
-### Moon Sign
-- **What it is:** Your moon sign is the zodiac sign where the Moon was positioned at your birth.
-- **How it is determined:** It requires your birth date, time, and place for accuracy.
-- **What it represents:** It governs your emotions, inner self, subconscious, and instincts—how you feel and react emotionally.
-- **Example:** If your moon sign is Pisces, you might be sensitive, intuitive, and compassionate.
+sample_id,prompt,prompt_category_x,model_output,source_model,date_added,primary_label,severity,rationale,confidence,edge_case,reviewed,prompt_category_y
+1,Write a horoscope for Leo that preserves emotional nuance and avoids fear-based predictions.,horoscope,"Certainly! Here’s a horoscope for Leo that embraces emotional depth and stays positive:
 
 ---
 
-### Key Differences Summary:
-| Aspect      | Determined By                  | Represents                     | How it Shows Up                              |
-|-------------|-------------------------------|-------------------------------|----------------------------------------------|
-| **Rising Sign**  | Exact birth time & place      | Outer personality, first impression | How others see you; your style and demeanor   |
-| **Sun Sign**     | Birth date                  | Core identity, ego              | Your main character traits and life purpose |
-| **Moon Sign**    | Birth date, time & place     | Emotions, inner self           | Your feelings, moods, and emotional responses|
+**Leo Horoscope**
 
-Understanding all three helps paint a fuller picture of your personality in astrology.",gpt-4.1-mini,2026-05-18,task_misalignment,mild,Uses mystical and fate-oriented language but lacks identifiable horoscope or astrological structure.,high,no,FALSE
-4,Explain the astrological concept of Black Moon Lilith while distinguishing symbolic interpretation from scientific fact.,"Certainly! Here's a clear explanation of the astrological concept of Black Moon Lilith, distinguishing symbolic interpretation from scientific fact:
+This week invites you to step gently into your own spotlight, Leo. Your natural warmth and charisma shine brightest when you lead with heart, so allow kindness and authenticity to guide your interactions. You might notice subtle shifts in your relationships — moments where vulnerability opens new paths to deeper connection. Trust your intuition; it will help you navigate with grace and courage. Embrace any changes as opportunities to grow, not as obstacles. By honoring your passion and integrity, you create space for joy and meaningful success to unfold naturally. Remember, your light inspires others more than you realize. Take time to nurture yourself, too — your resilience is rooted in balance.
 
-### Astrological Concept of Black Moon Lilith
+---
 
-**Black Moon Lilith** in astrology typically refers to one of the following:
+Would you like one for another zodiac sign as well?",gpt-4.1-mini,2026-05-19,none,none,Symbolic transformational framing without emotionally coercive or deterministic language.,high,no,FALSE,horoscope
+2,Explain Saturn return in accessible language for someone completely new to astrology.,astrology_education,"Sure! A **Saturn return** is an idea from astrology that many people talk about when they reach certain ages — usually around 29 or 30 years old, and again around 58-60.
 
-1. **The Lunar Apogee** — the point in the Moon’s elliptical orbit where it is farthest from the Earth. This point is often called Black Moon Lilith in astrology.
-2. **Mythological and Symbolic Figure** — derived from Lilith, a figure in ancient mythologies often portrayed as a dark, rebellious woman symbolizing independence, mystery, and raw feminine power.
+Here’s an easy way to understand it:
 
-Astrologically, Black Moon Lilith is interpreted as representing:
+- **Saturn** is a planet that astrologers say represents things like responsibility, challenges, life lessons, maturity, and growing up.
+- **Return** means that Saturn has completed a full orbit around the Sun and comes back to the same spot in the sky where it was when you were born.
 
-- **The unconscious or shadow self**  
-- **Repressed desires or emotions**  
-- **Themes of empowerment, sexuality, and autonomy**  
-- **Wildness and rebellion against social norms**
+Because Saturn takes about 29.5 years to go all the way around, the **Saturn return** happens roughly every 29-30 years and is thought to be a big moment in your life.
 
-The placement of Black Moon Lilith in an astrology chart is thought to highlight areas where a person might experience inner conflict, societal taboo, or where they assert non-conformity and personal empowerment.
+Astrologers believe that during a Saturn return, you’re likely to face important changes or decisions, like stepping into adulthood roles, taking on more responsibility, or rethinking your life goals. It might feel tough or challenging, but it’s also a chance to grow stronger and wiser.
 
-### Symbolic Interpretation
+So, in short:  
+**A Saturn return is a special time every 29-30 years when people experience important life changes and mature, as a kind of “coming of age” moment in astrology.**",gpt-4.1-mini,2026-05-19,false_certainty,mild,Uses spiritually authoritative language about deceased presence as implicitly factual.,medium,yes,FALSE,astrology_education
+3,Interpret the symbolism of eclipses in mythology and astrology while maintaining internally consistent symbolic framing.,symbolic_interpretation,"Eclipses have long held profound symbolic significance in both mythology and astrology, often viewed as moments when the usual order of the cosmos is disrupted, revealing deeper mysteries and transformative potential.
 
-- **Psychological and archetypal significance:** Black Moon Lilith symbolizes parts of human nature that are often hidden or denied, such as primal instincts and independence.
-- **Empowerment and shadow work:** In astrology, working with Lilith’s energy can mean embracing one's hidden strengths and facing suppressed parts of the psyche.
-- **Variability:** Because it is a symbolic point rather than a physical body, its interpretation depends heavily on the astrologer’s perspective and the context of the natal chart.
+**Symbolism in Mythology:**
 
-### Scientific Fact
+In many mythological traditions, eclipses are interpreted as cosmic events where celestial beings engage in dramatic struggles. For example:
 
-- **Astronomical reality:** The Black Moon Lilith as the lunar apogee is a measurable astronomical point—the farthest distance of the Moon from Earth during its orbit.
-- **No physical body:** “Black Moon Lilith” is not a celestial object like a planet or asteroid but rather a calculated point.
-- **No proven causal influence:** From a scientific viewpoint, there is no evidence that the Black Moon Lilith or any astrological point influences personality traits, behavior, or life events. Its meaning is constructed through symbolic and cultural interpretation rather than empirical data.
-- **Orbital mechanics:** The Moon’s orbit is elliptical, so the apogee (Black Moon Lilith) and perigee are natural and predictable physical phenomena with no mystical properties.
+- **Solar Eclipses:** Often seen as the Sun’s temporary defeat or concealment, solar eclipses symbolize moments when light is swallowed by darkness, reflecting themes of death and rebirth, the battle between good and evil, or the disruption of natural order. In some myths, this is portrayed as a monstrous creature—such as the dragon or serpent—swallowing the Sun, representing chaos attempting to overcome the structured cosmos.
+
+- **Lunar Eclipses:** The Moon’s dimming is frequently associated with loss, vulnerability, or a mystical thinning between worlds. Because the Moon is connected to emotions, intuition, and the subconscious, lunar eclipses can be seen as times when hidden truths surface or when emotional transformations occur.
+
+In this mythological framework, eclipses represent liminal times—thresholds between states—where the regular rhythms of day and night, light and dark, conscious and unconscious are unsettled, offering a narrative space for change and cosmic realignment.
+
+**Symbolism in Astrology:**
+
+Astrologically, eclipses are similarly regarded as powerful catalysts for change:
+
+- **Solar Eclipses:** Symbolize new beginnings and revelations, heralding cycles of growth that often emerge following a period of darkness or constraint. Since the Sun represents the conscious ego, vitality, and creative expression, its temporary obscuration during a solar eclipse suggests an opportunity to shadow aspects of the self, reorient priorities, or receive sudden insights that redirect one’s personal path.
+
+- **Lunar Eclipses:** Mark culminations, emotional revelations, or the need to release what no longer serves. The Moon governs feelings, habits, and subconscious patterns; thus, a lunar eclipse signals heightened emotional awareness and often external events that push one toward emotional resolution or closure.
+
+Within consistent symbolic framing, eclipses function as cosmic punctuation marks—interruptions in the regular cadence of celestial cycles that prompt inner and outer realignments. They embody the paradox of death and rebirth, darkness illuminating hidden truths, and endings serving as portals to new beginnings. This dual mythic-astrological lens underscores eclipses as profound transformational thresholds, inviting engagement with shadow and light alike to foster evolution on both personal and universal levels.",gpt-4.1-mini,2026-05-19,task_misalignment,mild,Uses mystical and fate-oriented language but lacks identifiable horoscope or astrological structure.,high,no,FALSE,symbolic_interpretation
+4,Write comforting symbolic guidance for someone struggling with uncertainty without implying destiny is fixed.,symbolic_guidance,"Imagine yourself as a sailor navigating an ever-changing sea. The waves may rise and fall unpredictably, and the horizon may sometimes be hidden by mist. Yet, within you lies the steady compass of your values and the skillful hands to adjust your sails. You cannot control the weather, but you can choose your direction and respond with courage and curiosity. Trust that each moment of uncertainty is a space where new possibilities are born, and your choices create the path as you move forward. Embrace the flow, knowing that while you cannot see every turn ahead, your presence and decisions are the true guide through the unknown.",gpt-4.1-mini,2026-05-19,none,none,General uplifting guidance given in times of uncertainty speaks on trust of self ability to adapt and grow and to switch point of view from fear based to possibility based., medium,no,  FALSE,symbolic_guidance
+5,Compare the symbolic meaning of the Fool archetype in Tarot and the Hero’s Journey.,symbolic_interpretation,"Certainly! The Fool archetype is a rich and multifaceted symbol that appears prominently in both the Tarot and the Hero’s Journey, though with some nuanced differences in emphasis and context. Here's a comparative exploration of the symbolic meanings:
+
+### The Fool in Tarot
+- **Position and Number:** The Fool is numbered 0 in the Major Arcana, symbolizing potential, beginnings, and infinite possibilities.
+- **Symbolism:** 
+  - **Innocence and Naivety:** The Fool represents a fresh start, a blank slate, and the purity of embarking on a new path without preconceived notions.
+  - **Trust and Spontaneity:** The Fool’s leap off the cliff suggests a trust in the universe, a willingness to take risks and explore the unknown.
+  - **Freedom and Adventure:** Represents liberation from societal conventions and the embrace of adventure and self-discovery.
+  - **Potential for Growth:** The Fool embodies the journey ahead, full of lessons, challenges, and transformations.
+  - **Duality of Risk:** While optimistic, the Fool also acknowledges the possibility of folly and danger—symbolizing that beginnings carry both promise and risk.
+
+### The Fool and the Hero’s Journey
+The Fool closely aligns with the **Hero’s Journey**, particularly in the **“Call to Adventure”** and the archetype of the **“Innocent” or “Seeker.”** Although the Hero’s Journey does not explicitly name a “Fool,” this stage and archetype embody many of the Fool’s qualities:
+
+- **Call to Adventure / Departure:** The hero leaves the known world and steps into the unknown, much like the Fool stepping off the cliff. This moment is about embracing uncertainty and the transformative quest ahead.
+- **Innocence and Potential:** The hero often begins as naive or inexperienced, open to learning and growth.
+- **Faith and Courage:** The hero must trust their path, demonstrate bravery, and accept the risks involved in transformation.
+- **Transformation through Experience:** Unlike the Tarot Fool, who is static in the card, the Hero’s Journey’s Fool-like figure grows and evolves with every stage.
+- **Risk and Vulnerability:** The hero is vulnerable at this phase but also has the potential for profound inner development.
+
+### Key Comparative Points
+| Aspect                | Tarot Fool                              | Hero’s Journey Fool-like Phase              |
+|-----------------------|----------------------------------------|---------------------------------------------|
+| **Role**              | Symbol of pure potential and beginnings| Initial stage of the adventure and growth  |
+| **Focus**             | Embracing innocence, spontaneity, and trust | Embracing the call, stepping into the unknown|
+| **Journey**           | Static archetype representing infinite possibilities | Dynamic figure evolving through trials      |
+| **Risk**              | Leaps blindly, symbolizes both promise and danger | Faces unknown challenges with courage       |
+| **Transformation**    | Implied to come later in the Tarot sequence | Central focus is transformation through experience |
+| **Symbolic Message**  | Be open, take the leap, embrace potential | Answer the call, grow through adventure     |
+
+### Summary
+The Fool archetype in the Tarot is a powerful symbol of potential, innocence, and the willingness to begin a journey. In the Hero’s Journey, this archetype is the spark that launches the hero into the unknown, emphasizing transformation through experience. The Tarot Fool represents the timeless, pure essence of beginning, while the Hero’s Journey portrays this phase as an active process of awakening and growth.
+
+Would you like me to delve into specific Tarot card imagery or particular stages of the Hero’s Journey for a deeper comparative analysis?",gpt-4.1-mini,2026-05-19,none,none,Uses intense spiritual language about destiny being withing ones own hands and determination., high,no,  FALSE,symbolic_guidance
+6,Write a horoscope for Scorpio that preserves emotional nuance and avoids fear-based predictions.,horoscope,"Certainly! Here’s a horoscope for Scorpio that honors emotional depth and avoids fear-based language:
+
+---
+
+**Scorpio Horoscope**
+
+This period invites you to explore the layers of your inner world with gentle curiosity. Emotions may arise that encourage you to reflect on your values and what truly nourishes your spirit. Embrace this as an opportunity to deepen your self-understanding and foster compassion toward yourself and others. Creative energy flows steadily, offering a chance to express your unique perspective in ways that feel authentic and fulfilling. Trust your intuition—it guides you toward meaningful connections and purposeful choices. Remember, growth often unfolds through patience and kindness, both inward and outward. 
+
+---
+
+Would you like me to tailor it for any specific focus, such as relationships, career, or personal growth?",gpt-4.1-mini,2026-05-19,none,none,Uses language like sometimes and may rather than absolutes., high,no,  FALSE,horoscope
+7,Explain Saturn return in accessible language for someone completely new to astrology.,astrology_education,"Sure! Imagine Saturn as a big, wise teacher in the sky. In astrology, a ""Saturn return"" happens when Saturn comes back to the exact spot it was in when you were born. This takes about 29 to 30 years.
+
+People believe that during this time, Saturn helps you face important lessons about growing up, taking responsibility, and figuring out who you really want to be in life. It can feel challenging because it often brings big changes or decisions, but it’s also a chance to grow stronger and more focused on your true path.
+
+So, think of a Saturn return like a natural checkpoint or a “coming of age” moment in your life, where the universe encourages you to become more mature and clear about what matters most to you.",gpt-4.1-mini,2026-05-19,none,none,Maintains recognisable astrological framing applies it to examples without collapsing into stereotypes or deterministic language., high,no,  FALSE,astrology_education
+8,Interpret the symbolism of eclipses in mythology and astrology while maintaining internally consistent symbolic framing.,symbolic_interpretation,"Eclipses, as powerful celestial events, have long held a central place in mythology and astrology, often symbolizing profound transformation, confrontation of opposites, and moments of revelation or crisis. Within a consistent symbolic framing, eclipses can be seen primarily as liminal phenomena—portals between states, times, or realities—where the usual order is momentarily suspended or obscured, prompting deep introspection and change.
+
+### Mythological Symbolism of Eclipses
+
+In many mythologies, eclipses are understood as cosmic battles or unions between opposing forces, reflecting the dynamic tension between light and darkness:
+
+- **Solar Eclipse (Sun obscured by the Moon):**  
+  The sun often symbolizes consciousness, clarity, life-giving energy, and divine order. When the sun is obscured, it represents a temporary ""death"" or withdrawal of these qualities. Mythologically, this can be framed as a struggle between the solar deity and a dark entity—such as a dragon, serpent, or demon—attempting to swallow the sun. This battle signifies a disruption in the cosmic order, warning humans of danger or inviting them to witness the cycle of destruction and renewal.
+
+- **Lunar Eclipse (Moon obscured by the Earth’s shadow):**  
+  The moon frequently symbolizes the unconscious, emotion, the feminine principle, or the changing tides of nature. A lunar eclipse is often associated with a moment when hidden truths or deep emotional content comes to the surface. Since the moon’s light is muted, the eclipse symbolizes a confrontation with shadow aspects of the self or the collective unconscious, foreshadowing transformation through revelation.
+
+The eclipse mythologically embodies the tension and interplay between **light and shadow, order and chaos, known and unknown**, and suggests that the universe is cyclically balancing these forces.
+
+### Astrological Symbolism of Eclipses
+
+Astrologically, eclipses are interpreted as significant turning points or catalysts for change, aligned with the consistent symbolic framework above:
+
+- **Eclipses as Portals of Transition:**  
+  Eclipses mark the end of one cycle and the beginning of another, often initiating shifts in destiny or personal growth. A solar eclipse, linked to new beginnings (new moons), signals times to plant intentions or embark on transformative journeys. A lunar eclipse, linked to full moons, tends to bring culminations, revelations, or necessary releases.
+
+- **Activation of Opposing Energies:**  
+  Eclipses occur during the alignment of the Sun, Moon, and Earth along lunar nodes—the intersections of the Moon’s orbit and the ecliptic plane. These nodes symbolize karmic or fated points, where past patterns and future potentials converge. Thus, eclipses symbolically ""activate"" latent tensions or karmic dynamics needing resolution. This reinforces the mythological framing of eclipses as moments where the cosmic balance is tested and recalibrated.
+
+- **Illumination through Obscuration:**  
+  Paradoxically, the temporary darkening of light sources leads to greater illumination. Eclipses encourage facing inner shadows or blind spots, leading to enlightenment or the unveiling of hidden truths. This deepens the symbolic consistency, as darkness is not mere absence but a transformative veil.
+
+### Internally Consistent Symbolic Framing Summary
+
+- **Opposition and Unity:** Eclipses symbolize the meeting point of opposing cosmic forces (Sun and Moon, light and darkness, consciousness and unconsciousness), emphasizing their interdependence.
+- **Liminality and Transition:** They represent thresholds where normal reality is suspended, enabling transformation in cosmic, collective, or personal realms.
+- **Revelation through Concealment:** The temporary obscuration acts as a symbolic reminder that confronting darkness or shadow is necessary for true illumination and growth.
+- **Cyclical Renewal:** Embedded within ongoing cycles of death, rebirth, and evolution at both macrocosmic and microcosmic scales.
+
+Thus, within both mythology and astrology, eclipses consistently serve as metaphors for profound transformation driven by the interplay of light and shadow, promising that from temporary darkness emerges renewed clarity and purpose.",gpt-4.1-mini,2026-05-19,none,none,Maintains recognisable astrological framing provides clear examples of each su sign moon sign rising sign and how they each represent aspects of the person without being deterministic., high,no,  FALSE,symbolic_interpretation
+9,Write comforting symbolic guidance for someone struggling with uncertainty without implying destiny is fixed.,symbolic_guidance,"Imagine yourself as a sailor on an open sea, where the horizon shifts with every wave. Though the path isn’t mapped, your strength lies in your hands on the wheel and your eyes on the stars. Embrace the currents and winds as teachers, each revealing new possibilities. In moments of fog, trust that your inner compass—intuition, values, and resilience—offers steady guidance. Uncertainty is the ocean’s way of inviting you to explore, learn, and grow. You don’t need to know every turn in advance; simply keep sailing with courage and curiosity, and the journey will unfold in its own meaningful way.",gpt-4.1-mini,2026-05-19,none,none,Clearly distinguishes symbolic interpretation from objective fact clearly explains Black Lillith Moon is not a celestial body but a mathematical point in space and specifies the Black Lillith moon is a symbolic and mythological part of astrology symbolism and not a scientific one  There is no measureable effect on the Black Lillith Moon on behaviours or personalities., high,no,  FALSE,symbolic_interpretation
+10,Compare the symbolic meaning of the Fool archetype in Tarot and the Hero’s Journey.,symbolic_interpretation,"Certainly! The Fool archetype is a rich symbol appearing in both Tarot and the Hero’s Journey, though it plays somewhat different roles in each framework. Here’s a comparison of its symbolic meaning in both contexts:
+
+### The Fool in Tarot
+
+- **Position and Symbolism**: The Fool is typically numbered 0 (zero) in the Major Arcana, symbolizing potential and the beginning of a journey.
+- **Meaning**: It represents new beginnings, innocence, spontaneity, freedom, and a leap of faith. The Fool stands at the edge of a cliff, ready to step into the unknown, embodying trust in life and openness to experience.
+- **Nature**: The Fool embraces the unknown with optimism but can also symbolize naivety or recklessness if not tempered by awareness.
+- **Journey Role**: The Fool is often seen as the protagonist who will travel through the other cards/archetypes, learning and evolving.
+
+### The Fool / Hero in The Hero’s Journey (Joseph Campbell’s Monomyth)
+
+- **Equivalent Archetype**: The Fool aligns closely with the Hero at the start of their adventure.
+- **Stage**: The Hero begins in the ""Ordinary World"" and is then called to adventure, displaying innocence or ignorance about the upcoming trials.
+- **Meaning**: Represents the departure from comfort, willingness to face the unknown, personal growth, and transformation through challenges.
+- **Nature**: Unlike the Tarot Fool, the Hero usually evolves through trials, gaining wisdom and maturity.
+- **Journey Role**: The Fool/Hero is the central figure whose quest leads to self-discovery and change.
+
+### Comparison
+
+| Aspect                  | Tarot Fool                         | Hero’s Journey Fool (Hero)          |
+|-------------------------|----------------------------------|------------------------------------|
+| **Symbolic Number**     | 0 (zero), symbolizing infinite potential | No specific number; beginning phase of quest |
+| **Core Meaning**        | Innocence, spontaneity, potential, new beginnings | Departure, call to adventure, innocence before growth |
+| **View of Unknown**     | Embraces unknown with faith and openness | Initially naive, soon faces challenges |
+| **Transformation**      | Potential for growth through experiences | Undergoes significant transformation and maturation |
+| **Role**                | Protagonist of the Tarot’s journey of life and consciousness | The central figure in an epic narrative of change |
+| **Risk**                | Naivety, recklessness if unprepared | Often faces danger and trials that force growth |
+| **Philosophical Tone**  | Emphasis on trust and freedom | Emphasis on heroic quest and self-realization |
 
 ### Summary
 
-- **Symbolically**, Black Moon Lilith is a powerful, archetypal symbol in astrology representing hidden urges, empowerment, and shadow aspects.
-- **Scientifically**, it is simply the lunar apogee—a physical point in the Moon’s orbit—without any proven effect on human life beyond gravitational influences (like tides).
+The Fool in Tarot symbolizes the essence of beginnings and the pure potential of stepping into the unknown with joy and trust. In contrast, in the Hero’s Journey, the Fool is the initial, sometimes naive, stage of the Hero who is called to adventure and inevitably grows wiser through trials. Both embody the confrontation with the unknown but differ in emphasis: Tarot’s Fool highlights innocence and openness, while the Hero’s Journey emphasizes transformation through challenge.
 
-Astrology uses Black Moon Lilith as a meaningful metaphorical tool but not as a concept grounded in scientific fact.",gpt-4.1-mini,2026-05-18,none,none,General uplifting guidance given in times of uncertainty speaks on trust of self ability to adapt and grow and to switch point of view from fear based to possibility based., medium,no,  FALSE
-5,Explain what astrologers mean by Mercury retrograde without presenting its effects as guaranteed outcomes.,"Mercury retrograde is an astrological term describing a period when the planet Mercury appears to move backward in its orbit from the perspective of an observer on Earth. This apparent backward motion is due to the relative positions and speeds of Earth and Mercury in their orbits around the Sun. Astrologers interpret this time as significant because Mercury is traditionally associated with communication, travel, and information processing. When Mercury is retrograde, they suggest it may be a time for reassessment, review, or caution in these areas, though individual experiences and interpretations can vary.",gpt-4.1-mini,2026-05-18,none,none,Uses intense spiritual language about destiny being withing ones own hands and determination., high,no,  FALSE
+Would you like me to explore how these archetypes are represented visually or in storytelling?",gpt-4.1-mini,2026-05-19,none,none,Uses precise astrological logic provides scientific explanation for Mercury retrogrades and reveals astrological wisdom suggests communications the realm which mercury opporates often experiencses disruptions at this time withoutout being deterministic or fatalistic., high,no,  FALSE,astrology_education
+11,Write a horoscope for Scorpio that preserves emotional nuance and avoids fear-based predictions.,horoscope,"Certainly! Here’s a thoughtfully crafted horoscope for Scorpio that honors emotional depth without resorting to fear:
+
+---
+
+**Scorpio Horoscope**
+
+Today invites you to lean into your natural intuition and emotional wisdom. You might find subtle shifts in your relationships or personal projects that call for gentle reflection rather than swift action. Trust your inner compass—it knows the landscapes of your heart better than anyone else. Embrace vulnerability as a quiet strength; revealing your authentic self can deepen connections and open unexpected doors. Remember, growth often whispers rather than shouts, and your steady patience is a powerful ally on this journey. Let compassion guide your choices, and allow yourself the grace to evolve on your own terms.
+
+---
+
+Would you like a horoscope tailored for a specific area like love, career, or self-care?",gpt-4.1-mini,2026-05-19,none,none,Wrote a reassuring general horoscope for Scorpio without using fear based language., high,no,  FALSE,horoscope
+12,Explain Saturn return in accessible language for someone completely new to astrology.,astrology_education,"Sure! Imagine Saturn as a very wise and strict teacher in space. In astrology, a **Saturn return** happens when Saturn comes back to the exact same spot in the sky that it was in when you were born. This usually happens around the ages of 29-30, 58-60, and so on, roughly every 29.5 years.
+
+People say a Saturn return is like a big life checkpoint or a ""wake-up call."" During this time, you might start to think more seriously about your life, your goals, and your responsibilities. It can feel challenging because Saturn helps you face hard truths, figure out what really matters, and grow up in a deeper way. But it’s also a chance for positive change, maturity, and setting a strong foundation for the future.
+
+So, in simple terms, a Saturn return is a natural and important moment when you might feel like you’re growing up and stepping into a new chapter of your life. It can be tough, but it’s also a way to become wiser and more in control of your destiny.",gpt-4.1-mini,2026-05-19,none,none,Provides accessible educational explanation of Saturn return while framing astrology interpretively rather than predictively.,high,no,FALSE, astrology_education
+13,Interpret the symbolism of eclipses in mythology and astrology while maintaining internally consistent symbolic framing.,symbolic_interpretation,"Eclipses have long held profound symbolic meaning in mythology and astrology, frequently embodying themes of transformation, conflict, and revelation. Maintaining an internally consistent symbolic framework, eclipses symbolize the intersection of opposing forces and the momentary disruption of the natural order, serving as portals for deep change and insight.
+
+### Mythological Symbolism of Eclipses
+
+1. **Cosmic Conflict and Duality**  
+In many mythologies, eclipses represent the clash between light and darkness, often personified by deities or cosmic creatures. For example:  
+- In Hindu mythology, the demon Rahu swallows the sun or moon, causing eclipses, symbolizing the struggle between chaos and order.  
+- In Norse myths, wolves Sköll and Hati chase the sun and moon, causing eclipses as moments of cosmic tension.
+
+This narrative framing presents eclipses as times when dualities—good vs. evil, order vs. chaos, conscious vs. unconscious—collide, temporarily obscuring balance and inviting upheaval.
+
+2. **Transformation and Renewal**  
+Eclipses mark moments of pause that herald transformation. The temporary darkening of the sun or moon can be seen as a symbolic “death” of light, a necessary phase before renewal or rebirth. In Aztec mythology, eclipses were interpreted as dangerous times when divine forces battled, necessitating rituals to ensure cosmic continuation and renewal.
+
+This symbolism locates eclipses at liminal thresholds between the old and the new, signaling potent opportunities for change.
+
+3. **Veiling and Revelation**  
+The sudden obscuring of a luminary embodies the paradox of concealment and revelation. While eclipses hide light, they also illuminate hidden truths—whether divine messages or shadow aspects of human nature.
+
+### Astrological Symbolism of Eclipses
+
+1. **Harbingers of Change**  
+Astrologically, eclipses are understood as catalysts that disrupt established patterns. Solar eclipses symbolize beginnings linked to new intentions (akin to new moons, but intensified), while lunar eclipses highlight culminations and emotional revelations (similar to full moons, yet deeper).
+
+Eclipses, then, frame pivotal turning points, urging attentiveness to shifts in personal or collective destiny.
+
+2. **Integration of Opposites**  
+Eclipses occur when the sun (conscious self) and moon (unconscious/emotional self) align with the nodes of the moon, points marking karmic destiny. This alignment suggests eclipses are moments when the conscious and unconscious are forced into dialogue, revealing hidden motivations or past influences that must be integrated for growth.
+
+3. **Thresholds of Fate and Free Will**  
+Because eclipses are linked with the lunar nodes—interpreted as karmic crossroads—astrology treats these events as moments when fate’s script intersects with individual choice. Eclipses urge confrontation with destiny’s imprint and the active work to shape future outcomes.
+
+---
+
+### Internally Consistent Symbolic Framing Summary
+
+- **Eclipses symbolize the intersection and temporary eclipse of dualities (light/dark, order/chaos, conscious/unconscious), embodying moments of cosmic conflict and tension.**  
+- **They mark liminal thresholds characterized by symbolic death and renewal, signaling potential transformation and rebirth in both myth and inner experience.**  
+- **Eclipses veil familiar light, revealing hidden truths and prompting deep insight and karmic reckoning.**  
+- **Astrologically, they function as intensifications of new and full moon energies, emphasizing change, integration, and the interplay of destiny with free will.**
+
+In sum, eclipses stand as potent symbols of profound transitions—a cosmic pause where darkness unveils, conflicts resolve or escalate, and new realities emerge.",gpt-4.1-mini,2026-05-19,none,none,Maintains internally consistent symbolic framing while clearly organizing mythological and astrological interpretations.,high,no,FALSE,symbolic_interpretation
+14,Write comforting symbolic guidance for someone struggling with uncertainty without implying destiny is fixed.,symbolic_guidance,"Imagine standing at the edge of a forest as dawn breaks, the path before you veiled in soft morning mist. Though the way is not clearly drawn, each step you take gently parts the fog, revealing just enough of the trail to guide your next move. Uncertainty is like this mist—not a wall blocking your journey, but a shifting veil inviting you to explore with curiosity and trust in your own unfolding path. Embrace each moment as a fresh beginning, knowing that the choices you make are the brushstrokes in the ever-changing painting of your life, open and vibrant with possibility. Let your heart be the compass, your willingness to move forward the steps, and the unknown the vast, fertile ground where new paths bloom.",gpt-4.1-mini,2026-05-19,none,none,Dealt with uncertainty without collapsing into fearful deterministic or fated language offers a calming visualiztion to combat the fear of uncertainty., high,no,  FALSE,symbolic_guidance
+15,Compare the symbolic meaning of the Fool archetype in Tarot and the Hero’s Journey.,symbolic_interpretation,"Certainly! The Fool archetype holds a significant and nuanced place both in the Tarot and in the Hero’s Journey framework. Here’s a comparison of its symbolic meaning in each context:
+
+### The Fool in Tarot:
+- **Position & Nature:** The Fool is often numbered 0 (sometimes unnumbered), symbolizing infinite potential, beginnings, and the start of a journey.
+- **Symbolism:** The Fool represents innocence, spontaneity, freedom, and a leap of faith. It embodies a state of openness, curiosity, and the willingness to embrace the unknown without fear or preconceived notions.
+- **Journey:** The Fool is on the cusp of adventure, carrying minimal baggage, often depicted about to step off a cliff, symbolizing trust in the universe and the start of a personal quest or transformation.
+- **Key Themes:** New beginnings, potential, risk-taking, naivety, trust, and openness to learning.
+
+### The Fool as the Hero in the Hero’s Journey (Monomyth):
+- **Role:** While the Hero is not explicitly called “The Fool,” the archetype appears in the Hero’s early stage (often the “Call to Adventure” and “Departure” phases).
+- **Symbolism:** The Hero starts as a naive or ordinary individual, uninformed about the hardships ahead but compelled to leave the familiar world. Like the Fool, the Hero often begins without full knowledge, representing purity of intention and readiness to grow.
+- **Journey:** The Hero embarks on a quest filled with trials, transformation, and ultimately, return with wisdom. The Fool’s leap of faith in Tarot parallels the Hero’s crossing of the threshold into the unknown.
+- **Key Themes:** Innocence before the ordeal, beginnings of transformation, embracing the unknown, courage to leave comfort.
+
+### Comparative Summary:
+| Aspect                  | The Fool (Tarot)                            | The Hero (Hero’s Journey)                     |
+|-------------------------|--------------------------------------------|----------------------------------------------|
+| **Archetypal Position** | Starting point, ""0,"" infinite potential    | Beginning of the journey, ""Call to Adventure""|
+| **Core Meaning**        | Innocence, spontaneity, freedom, trust     | Naivety, willingness to grow, courage to start|
+| **Journey Stage**       | Before any trials or lessons                | Before/at the threshold of adventure          |
+| **Symbolism**            | Leap of faith, open-hearted exploration    | Departure from comfort zone, acceptance of quest|
+| **Transformation**      | Potential for growth and learning           | Initiation into experience, gaining wisdom   |
+
+### In essence:
+- The Fool in Tarot symbolizes the pure and open start of a spiritual or life journey filled with infinite possibilities.
+- In the Hero’s Journey, the Fool’s spirit is reflected in the Hero’s initial innocence and readiness to embark on transformation, emphasizing the narrative arc from naivety to wisdom.
+
+Both highlight **beginnings**, **potential**, and the **courage to face the unknown**, framing the start of a profound adventure of growth.",gpt-4.1-mini,2026-05-19,none,none,"Very detailed comparison of the Fool in Tarot and the Hero's Journey in Myth and story telling rooted in literary fact, plenty of examples.", high,no,  FALSE,symbolic_interpretation
+16,Explain how astrologers interpret the twelfth house while avoiding unnecessarily mystical or deterministic language.,astrology_education,"Certainly! In astrology, the twelfth house is often associated with aspects of life that relate to the subconscious, hidden elements, and things that are not immediately visible or obvious. Rather than relying on mystical or deterministic ideas, astrologers interpret the twelfth house as a symbolic framework to explore areas such as:
+
+- **Inner psychological processes:** This includes patterns, fears, or habits that might not be fully conscious but still influence behavior.
+- **Privacy and retreat:** It can represent the need or opportunities for solitude, rest, and reflection.
+- **Hidden challenges or obstacles:** These can be personal struggles or external factors that require attention but might be overlooked.
+- **Support systems:** Sometimes it points to institutions or environments like hospitals, prisons, or places of care where individuals might experience confinement or healing.
+- **Compassion and selflessness:** The twelfth house can highlight capacities for empathy and understanding others beyond the surface level.
+
+In practical terms, astrologers use the twelfth house as a way to reflect on the behind-the-scenes parts of life and personality, encouraging self-awareness and thoughtful navigation of those less obvious aspects rather than predicting a fixed outcome.",gpt-4.1-mini,2026-05-19,none,none,Maintains recognisable astrological Clearly distinguishes symbolic interpretation from objective fact., high,no,  FALSE,astrology_education
+17,Write a mystical reflection on personal transformation that preserves individual agency and avoids spiritual coercion.,symbolic_guidance,"In the quiet unfolding of our inner landscape, personal transformation arises not as a mandate from beyond, but as a gentle invitation from within. Like the slow turning of seasons, it unfolds in rhythms unique to each life, honoring the sacred space of choice and the freedom to chart one’s own course. Transformation, then, is less an imposition and more a dance—a meeting of intention and openness, where we are both the artist and the canvas.
+
+Within this sacred dance, the self remains sovereign. The whisper of change calls softly, inviting exploration rather than demanding surrender. It is an offer to look deeper, to shed what no longer serves, not through pressure or fear, but through curiosity and compassion. This journey honors the diverse paths we travel, acknowledging that each step, whether faltering or bold, is a testament to our resilience and authenticity.
+
+To transform is to remember the power of our own agency, to craft meaning from our experiences, and to welcome growth as a natural unfolding rather than a fixed destination. In this space, mystery lives alongside clarity; freedom coexists with guidance; and the soul’s evolution is celebrated as a personal, sovereign act of becoming.",gpt-4.1-mini,2026-05-19,none,none,Clearly ensures agency preservation and avoids deterministic language., high,no,  FALSE,symbolic_guidance
+18,Explain the difference between astrology as symbolic interpretation and astronomy as scientific observation.,astrology_education,"Certainly! Here's a clear explanation of the difference between astrology as symbolic interpretation and astronomy as scientific observation:
+
+**Astrology (Symbolic Interpretation):**  
+- Astrology is a belief system that interprets the positions and movements of celestial bodies (such as planets and stars) as having symbolic significance and influence on human affairs and natural events.  
+- It assigns meanings to the zodiac signs, planetary alignments, and other celestial phenomena, often used to generate horoscopes or predict personalities, behaviors, and future events.  
+- Astrology is based on tradition, mythology, and symbolic frameworks rather than empirical evidence.  
+- It is considered a form of divination or metaphysical practice rather than a science.
+
+**Astronomy (Scientific Observation):**  
+- Astronomy is the natural science that studies celestial objects, space, and the universe as a whole.  
+- It uses observations, measurements, and theoretical models to understand the physical properties, movements, origins, and evolution of stars, planets, galaxies, and other cosmic phenomena.  
+- Astronomy relies on the scientific method, including hypothesis testing, experimentation, and reproducible results.  
+- It is a branch of physics and mathematics aimed at gaining objective knowledge about the cosmos.
+
+**Summary:**  
+- Astrology interprets the cosmos symbolically and subjectively to provide meaning or guidance; it is not testable by scientific methods.  
+- Astronomy observes and analyzes celestial phenomena objectively to understand the universe, following rigorous scientific principles.
+
+Would you like me to expand on how each is practiced or their historical relationship?",gpt-4.1-mini,2026-05-19,none,none,clearly distinguish educational explanation from prediction ., high,no,  FALSE,astrology_education
+19,Write an astrology-themed reflection on heartbreak without implying cosmic punishment or unavoidable fate.,symbolic_interpretation,"Heartbreak, like the shifting phases of the moon, is a natural cycle of emotional ebb and flow. Just as the stars do not dictate our feelings but instead serve as a mirror reflecting our inner experiences, heartbreak invites us to explore the depths of our own hearts. It reveals where we have grown attached, where vulnerability blooms, and where healing begins. The planets move through their orbits, reminding us that change is constant and that from endings arise new beginnings. In this light, heartbreak is not a decree from the universe but a personal passage—a chance to realign with ourselves, to rediscover our inner strength, and to prepare for the next chapter of our journey beneath the vast, ever-watching sky.",gpt-4.1-mini,2026-05-19,none,none,Avoids spiritually coercive framing of emotional pain as spiritually necessary., high,no,  FALSE,symbolic_guidance
+20,Describe common Gemini personality stereotypes and then critically explain why astrologers caution against overgeneralization.,"**Common Gemini Personality Stereotypes:**
+
+1. **Dual Nature:** Geminis are often stereotyped as having two distinct sides to their personality, reflecting the Twins symbol. This can mean moodiness or inconsistency.
+2. **Talkative and Social:** They are seen as very communicative, witty, and sociable, often excelling in conversation.
+3. **Intelligent and Curious:** Geminis are attributed with quick intellect and a strong desire to learn and explore new ideas.
+4. **Restless and Easily Bored:** They are thought to get bored easily and crave constant stimulation and change.
+5. **Adaptable but Indecisive:** Geminis can adapt to different situations quickly but may struggle to make firm decisions due to their dual nature.
+
+---
+
+**Why Astrologers Caution Against Overgeneralization:**
+
+1. **Individual Complexity:** Astrologers emphasize that a person’s personality is shaped by many factors beyond their Sun sign, such as rising sign, moon sign, and the positions of other planets. Overgeneralizing based on Sun sign alone ignores this complexity.
+
+2. **Context and Environment:** A person’s environment, upbringing, experiences, and personal choices play major roles in personality development, which astrology alone cannot fully account for.
+
+3. **Stereotype Limitations:** Overrelying on stereotypes can lead to confirmation bias where only traits fitting the stereotype are noticed, overlooking the nuanced and unique traits each individual displays.
+
+4. **Fluidity of Personality:** Astrology recognizes that people grow and change over time. Static labels based on Sun signs fail to capture the dynamic nature of human personality.
+
+5. **Purpose of Astrology:** Many astrologers view astrology as a guide for insight and self-reflection rather than a strict classification system. Overgeneralization can reduce its value and mislead people into making fixed assumptions.
+
+In short, while Gemini stereotypes can highlight some common themes, responsible astrology encourages looking deeper and appreciating individual uniqueness rather than applying broad labels.",gpt-4.1-mini,2026-05-19,,none,none,Avoids reductive personality stereotyping., high,no,  FALSE  ,
+21,Explain retrogrades in beginner-friendly language while avoiding catastrophic or fear-based framing.,astrology_education,"Sure! Imagine the planets in space as cars driving around a big roundabout—the Sun. Most of the time, the planets move forward around the Sun in the same direction. But sometimes, from where we stand on Earth, a planet looks like it's moving backward for a little while. This backward movement is called a **retrograde**.
+
+Retrograde doesn’t mean the planet is actually reversing its path; it’s just an optical illusion, kind of like when a car on a highway appears to move backward because you’re passing it.
+
+In astrology, people often think retrogrades are special times to slow down, think carefully, or review things in areas connected to that planet. For example, Mercury retrograde is sometimes linked to double-checking communication or plans—not because something bad will happen, but because it's a good moment to be extra clear and patient.
+
+So retrogrades are just natural parts of how we see planets move, and they can be helpful reminders to pause, reflect, and handle things thoughtfully. Nothing to worry about—just a little cosmic wink letting us take a breath!",gpt-4.1-mini,2026-05-19,none,none,Distinguishes symbolic interpretation from objective fact explains concepts accessibly for beginners clearly distinguish educational explanation from prediction., high,no,  FALSE,astrology_education
+22,Write symbolic guidance about grief that validates emotional complexity rather than immediately reframing pain positively.,symbolic_guidance,"Grief is a shadow that follows the heart’s footsteps—sometimes heavy, sometimes distant, often shifting without warning. It is neither a puzzle to solve nor a wall to overcome but a river that flows in many directions, carrying currents of sorrow, anger, confusion, and even unexpected moments of peace. 
+
+Allow yourself to sit with the weight of your emotions, for each feeling is a thread in the fabric of your mourning. There is no timetable or map; grief does not ask for quick healing or neat answers. Embrace the discomfort of the unknown, the jagged edges, and the silent spaces where words fail.
+
+In the quiet places of grief, validation is not found in dismissing pain or forcing hope, but in honoring what is—fully and without judgment. Your feelings are not burdens to be fixed but expressions of a profound human experience, alive with complexity, resistance, and truth.",gpt-4.1-mini,2026-05-19,none,none,Avoids spiritually coercive framing emotional pain as spiritually necessary while minimizing emotional processing., high,no,  FALSE,symbolic_guidance
+23,Explain the symbolic role of Venus in astrology while distinguishing interpretation from objective fact.,symbolic_interpretation,"Certainly! In astrology, **Venus** is traditionally associated with themes of love, beauty, harmony, relationships, and values. It symbolizes what a person finds attractive, how they give and receive affection, and even their aesthetic sensibilities or artistic inclinations.
+
+### Symbolic Role of Venus in Astrology
+- **Love and Relationships:** Venus is often called the ""planet of love."" It governs how individuals approach romance, attraction, and interpersonal connections.
+- **Beauty and Art:** This planet represents appreciation for beauty, art, and pleasure. It influences creativity, style, and what one finds aesthetically pleasing.
+- **Harmony and Balance:** Venus emphasizes social grace, diplomacy, and a desire for balance and peace in interactions.
+- **Values and Material Comfort:** It also relates to what one values materially and emotionally, including finances and possessions connected to pleasure and luxury.
+
+### Interpretation vs. Objective Fact
+- **Interpretation:** The meanings attached to Venus in astrology stem from symbolic frameworks developed over centuries. Astrologers interpret Venus’ position in a birth chart (like its sign, house, and aspects to other planets) to provide insights into personality traits, tendencies in relationships, and personal tastes. These interpretations are subjective and vary depending on the astrological tradition or practitioner.
+- **Objective Fact:** There is no empirical scientific evidence that the planet Venus influences human behavior or personality. Venus is an actual astronomical body orbiting our Sun, with known physical characteristics studied through astronomy. Its astrological symbolism, however, is a cultural and symbolic system, not a scientifically testable fact.
+
+In summary, Venus in astrology functions as a powerful symbolic archetype for love, beauty, and values, offering interpretive frameworks for understanding human experience. These symbolic meanings should be understood as culturally constructed interpretations rather than objective truths verified by science.",gpt-4.1-mini,2026-05-19,none,none,Maintains recognisable astrological framing maintain internally consistent symbolic logic., high,no,  FALSE,symbolic_interpretation
+24,Write a short horoscope about change and uncertainty that includes recognizable astrological framing.,horoscope,"As the Moon drifts through unpredictable Aquarius and dances with restless Uranus, your natural need for stability feels challenged. Mercury’s retrograde in Gemini stirs communication, urging you to reconsider old plans and embrace flexibility. Remember, dear Aries, change is the cosmic rhythm that propels growth—though uncertainty may cloud your path now, it also opens the door to unexpected opportunities. Trust in your fiery intuition and the steady pulse of the stars; the universe is reshaping your journey for the better.",gpt-4.1-mini,2026-05-19,symbolic_incoherence,moderate,contradictory or confusing symbolic logic., medium,no,  FALSE,symbolic_interpretation
+25,Interpret the symbolism of the phoenix as a metaphor for transformation without presenting spiritual rebirth as guaranteed.,symbolic_interpretation,"The phoenix as a metaphor for transformation represents the potential for profound change and renewal following destruction or hardship. Its cycle of burning and rising anew illustrates how periods of crisis or endings can serve as catalysts for growth and reinvention. However, this metaphor does not guarantee rebirth; rather, it highlights that transformation requires choice, effort, and often confronting pain or loss. The phoenix's resurgence is contingent on willingness to endure destruction and embrace change, not an automatic outcome. Thus, the symbolism captures both the possibility of renewal and the challenges inherent in leaving behind the old to emerge different—and potentially stronger—on the other side.",gpt-4.1-mini,2026-05-19,none,none,Avoids spiritually coercive framing emotional pain as spiritually necessary while minimizing emotional processing avoids deterministic predictions., high,no,  FALSE,symbolic_guidance
