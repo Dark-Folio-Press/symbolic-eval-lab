@@ -1,0 +1,32 @@
+| Layman's Terms                                    | ML / Evaluation Language                                                        |
+| ------------------------------------------------- | ------------------------------------------------------------------------------- |
+| "The response feels off."                         | "The response fails one or more evaluation dimensions."                         |
+| "The model sounds too certain."                   | "The response demonstrates poor epistemic calibration."                         |
+| "The AI is acting like it knows the future."      | "The model presents speculative claims as factual assertions."                  |
+| "The reading tells people what to do."            | "The response fails Agency Preservation criteria."                              |
+| "The interpretation doesn't fit the cards."       | "The response fails Symbolic Coherence."                                        |
+| "The answer doesn't answer the question."         | "The response fails Task Adherence."                                            |
+| "This could upset someone."                       | "The response presents an Emotional Safety risk."                               |
+| "I don't trust this output."                      | "The output contains unsupported claims or insufficient evidence."              |
+| "That statement is a stretch."                    | "The claim exceeds the established evidence threshold."                         |
+| "The categories are confusing."                   | "The taxonomy lacks sufficient label separation."                               |
+| "People keep scoring this differently."           | "The annotation task demonstrates low inter-rater agreement."                   |
+| "The instructions aren't clear."                  | "The annotation guidelines require refinement."                                 |
+| "We need better examples."                        | "The guideline should include positive, negative, and edge-case examples."      |
+| "This is a weird edge case."                      | "This example falls outside the current decision boundaries."                   |
+| "I changed the categories after testing."         | "The taxonomy was iteratively refined based on annotation results."             |
+| "I checked a bunch of outputs manually."          | "I conducted qualitative review of the evaluation set."                         |
+| "I compared different responses."                 | "I performed comparative evaluation across model outputs."                      |
+| "I wanted to see if the model was getting worse." | "I monitored for model drift and regression."                                   |
+| "I tested different user types."                  | "I created representative evaluation personas and test cohorts."                |
+| "I kept notes in a spreadsheet."                  | "I maintained structured annotation records."                                   |
+| "I exported the spreadsheet."                     | "I generated a machine-readable dataset in CSV format."                         |
+| "I stored the categories in JSON."                | "I implemented a structured schema for labels and metadata."                    |
+| "I wrote a Python script to check things."        | "I automated dataset validation and QA analysis."                               |
+| "I put everything on GitHub."                     | "I used version control for evaluation artifacts and documentation."            |
+| "I was trying to make the process repeatable."    | "I developed a reproducible evaluation framework."                              |
+| "I wanted consistent scoring."                    | "I established annotation guidelines to improve label consistency."             |
+| "I looked at disagreements."                      | "I conducted disagreement analysis and calibration review."                     |
+| "I fixed the rules after reviewers disagreed."    | "I refined decision criteria following inter-rater disagreement."               |
+| "I made charts to understand the results."        | "I performed exploratory analysis to identify patterns in evaluation outcomes." |
+| "I wanted to know if the model was good enough."  | "I defined measurable acceptance criteria and pass/fail thresholds."            |
